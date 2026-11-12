@@ -1,0 +1,41 @@
+{
+  "run_date_utc": "2026-11-12T14:26:04+00:00",
+  "seed": 42,
+  "source": "mixed",
+  "members_per_cluster": 10,
+  "split_sizes": {
+    "test": 500,
+    "eval": 500,
+    "train": 4000
+  },
+  "alphafold_db_version": "v6",
+  "clusters_file": {
+    "url": "https://cdn.rcsb.org/resources/sequence/clusters/clusters-by-entity-50.txt",
+    "access_date_utc": "2026-11-11T22:46:47+00:00",
+    "last_modified": "Mon, 09 Nov 2026 18:21:29 GMT",
+    "md5": "058f24f6704227377e7d0a5e6ba4305c",
+    "n_bytes": 22610554
+  },
+  "dedup_identical_sequences": true,
+  "clusters100_file": {
+    "url": "https://cdn.rcsb.org/resources/sequence/clusters/clusters-by-entity-100.txt",
+    "access_date_utc": "2026-11-11T14:32:51+00:00",
+    "last_modified": "Mon, 09 Nov 2026 18:23:37 GMT",
+    "md5": "9a41c9048d60900c512a69552fe57cd1",
+    "n_bytes": 22610554
+  },
+  "composition": {
+    "test": {
+      "pdb": 500,
+      "af": 0
+    },
+    "eval": {
+      "pdb": 35,
+      "af": 465
+    },
+    "train": {
+      "pdb": 375,
+      "af": 3625
+    }
+  }
+}

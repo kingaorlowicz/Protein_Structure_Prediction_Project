@@ -1,0 +1,754 @@
+data_AF-P31560-F1
+#
+_entry.id AF-P31560-F1
+#
+loop_
+_atom_type.symbol
+C 
+N 
+O 
+S 
+#
+loop_
+_audit_author.name
+_audit_author.pdbx_ordinal
+"Jumper, John"               1  
+"Evans, Richard"             2  
+"Pritzel, Alexander"         3  
+"Green, Tim"                 4  
+"Figurnov, Michael"          5  
+"Ronneberger, Olaf"          6  
+"Tunyasuvunakool, Kathryn"   7  
+"Bates, Russ"                8  
+"Zidek, Augustin"            9  
+"Potapenko, Anna"            10 
+"Bridgland, Alex"            11 
+"Meyer, Clemens"             12 
+"Kohl, Simon A. A."          13 
+"Ballard, Andrew J."         14 
+"Cowie, Andrew"              15 
+"Romera-Paredes, Bernardino" 16 
+"Nikolov, Stanislav"         17 
+"Jain, Rishub"               18 
+"Adler, Jonas"               19 
+"Back, Trevor"               20 
+"Petersen, Stig"             21 
+"Reiman, David"              22 
+"Clancy, Ellen"              23 
+"Zielinski, Michal"          24 
+"Steinegger, Martin"         25 
+"Pacholska, Michalina"       26 
+"Berghammer, Tamas"          27 
+"Silver, David"              28 
+"Vinyals, Oriol"             29 
+"Senior, Andrew W."          30 
+"Kavukcuoglu, Koray"         31 
+"Kohli, Pushmeet"            32 
+"Hassabis, Demis"            33 
+#
+_audit_conform.dict_location https://raw.githubusercontent.com/ihmwg/ModelCIF/master/dist/mmcif_ma.dic
+_audit_conform.dict_name     mmcif_ma.dic
+_audit_conform.dict_version  1.3.9
+#
+loop_
+_chem_comp.formula
+_chem_comp.formula_weight
+_chem_comp.id
+_chem_comp.mon_nstd_flag
+_chem_comp.name
+_chem_comp.pdbx_synonyms
+_chem_comp.type
+"C3 H7 N O2"    89.093  ALA y ALANINE         ? "L-PEPTIDE LINKING" 
+"C6 H15 N4 O2"  175.209 ARG y ARGININE        ? "L-PEPTIDE LINKING" 
+"C4 H8 N2 O3"   132.118 ASN y ASPARAGINE      ? "L-PEPTIDE LINKING" 
+"C5 H10 N2 O3"  146.144 GLN y GLUTAMINE       ? "L-PEPTIDE LINKING" 
+"C5 H9 N O4"    147.129 GLU y "GLUTAMIC ACID" ? "L-PEPTIDE LINKING" 
+"C2 H5 N O2"    75.067  GLY y GLYCINE         ? "PEPTIDE LINKING"   
+"C6 H13 N O2"   131.173 ILE y ISOLEUCINE      ? "L-PEPTIDE LINKING" 
+"C6 H13 N O2"   131.173 LEU y LEUCINE         ? "L-PEPTIDE LINKING" 
+"C6 H15 N2 O2"  147.195 LYS y LYSINE          ? "L-PEPTIDE LINKING" 
+"C5 H11 N O2 S" 149.211 MET y METHIONINE      ? "L-PEPTIDE LINKING" 
+"C5 H9 N O2"    115.130 PRO y PROLINE         ? "L-PEPTIDE LINKING" 
+"C3 H7 N O3"    105.093 SER y SERINE          ? "L-PEPTIDE LINKING" 
+"C4 H9 N O3"    119.119 THR y THREONINE       ? "L-PEPTIDE LINKING" 
+"C5 H11 N O2"   117.146 VAL y VALINE          ? "L-PEPTIDE LINKING" 
+#
+_citation.book_publisher          ?
+_citation.country                 UK
+_citation.id                      primary
+_citation.journal_full            Nature
+_citation.journal_id_ASTM         NATUAS
+_citation.journal_id_CSD          0006
+_citation.journal_id_ISSN         0028-0836
+_citation.journal_volume          596
+_citation.page_first              583
+_citation.page_last               589
+_citation.pdbx_database_id_DOI    10.1038/s41586-021-03819-2
+_citation.pdbx_database_id_PubMed 34265844
+_citation.title                   "Highly accurate protein structure prediction with AlphaFold"
+_citation.year                    2021
+#
+loop_
+_citation_author.citation_id
+_citation_author.name
+_citation_author.ordinal
+primary "Jumper, John"               1  
+primary "Evans, Richard"             2  
+primary "Pritzel, Alexander"         3  
+primary "Green, Tim"                 4  
+primary "Figurnov, Michael"          5  
+primary "Ronneberger, Olaf"          6  
+primary "Tunyasuvunakool, Kathryn"   7  
+primary "Bates, Russ"                8  
+primary "Zidek, Augustin"            9  
+primary "Potapenko, Anna"            10 
+primary "Bridgland, Alex"            11 
+primary "Meyer, Clemens"             12 
+primary "Kohl, Simon A. A."          13 
+primary "Ballard, Andrew J."         14 
+primary "Cowie, Andrew"              15 
+primary "Romera-Paredes, Bernardino" 16 
+primary "Nikolov, Stanislav"         17 
+primary "Jain, Rishub"               18 
+primary "Adler, Jonas"               19 
+primary "Back, Trevor"               20 
+primary "Petersen, Stig"             21 
+primary "Reiman, David"              22 
+primary "Clancy, Ellen"              23 
+primary "Zielinski, Michal"          24 
+primary "Steinegger, Martin"         25 
+primary "Pacholska, Michalina"       26 
+primary "Berghammer, Tamas"          27 
+primary "Silver, David"              28 
+primary "Vinyals, Oriol"             29 
+primary "Senior, Andrew W."          30 
+primary "Kavukcuoglu, Koray"         31 
+primary "Kohli, Pushmeet"            32 
+primary "Hassabis, Demis"            33 
+#
+_database_2.database_code AF-P31560-F1
+_database_2.database_id   AlphaFoldDB
+#
+_entity.details                  ?
+_entity.formula_weight           ?
+_entity.id                       1
+_entity.pdbx_description         "Photosystem II reaction center protein Psb30"
+_entity.pdbx_ec                  ?
+_entity.pdbx_fragment            ?
+_entity.pdbx_mutation            ?
+_entity.pdbx_number_of_molecules 1
+_entity.src_method               man
+_entity.type                     polymer
+#
+_entity_poly.entity_id                    1
+_entity_poly.nstd_linkage                 no
+_entity_poly.nstd_monomer                 no
+_entity_poly.pdbx_seq_one_letter_code     MNLEVIAQLTVLALIVASGPLVIALLAARKGNL
+_entity_poly.pdbx_seq_one_letter_code_can MNLEVIAQLTVLALIVASGPLVIALLAARKGNL
+_entity_poly.pdbx_strand_id               A
+_entity_poly.type                         polypeptide(L)
+#
+loop_
+_entity_poly_seq.entity_id
+_entity_poly_seq.hetero
+_entity_poly_seq.mon_id
+_entity_poly_seq.num
+1 n MET 1  
+1 n ASN 2  
+1 n LEU 3  
+1 n GLU 4  
+1 n VAL 5  
+1 n ILE 6  
+1 n ALA 7  
+1 n GLN 8  
+1 n LEU 9  
+1 n THR 10 
+1 n VAL 11 
+1 n LEU 12 
+1 n ALA 13 
+1 n LEU 14 
+1 n ILE 15 
+1 n VAL 16 
+1 n ALA 17 
+1 n SER 18 
+1 n GLY 19 
+1 n PRO 20 
+1 n LEU 21 
+1 n VAL 22 
+1 n ILE 23 
+1 n ALA 24 
+1 n LEU 25 
+1 n LEU 26 
+1 n ALA 27 
+1 n ALA 28 
+1 n ARG 29 
+1 n LYS 30 
+1 n GLY 31 
+1 n ASN 32 
+1 n LEU 33 
+#
+loop_
+_ma_data.content_type
+_ma_data.id
+_ma_data.name
+"model coordinates" 1 Model             
+"input structure"   2 "Input structure" 
+#
+_ma_model_list.data_id          1
+_ma_model_list.model_group_id   1
+_ma_model_list.model_group_name "AlphaFold Monomer v2.0 model"
+_ma_model_list.model_id         1
+_ma_model_list.model_name       "Top ranked model"
+_ma_model_list.model_type       "Ab initio model"
+_ma_model_list.ordinal_id       1
+#
+loop_
+_ma_protocol_step.method_type
+_ma_protocol_step.ordinal_id
+_ma_protocol_step.protocol_id
+_ma_protocol_step.step_id
+"coevolution MSA" 1 1 1 
+"template search" 2 1 2 
+modeling          3 1 3 
+#
+loop_
+_ma_qa_metric.id
+_ma_qa_metric.mode
+_ma_qa_metric.name
+_ma_qa_metric.software_group_id
+_ma_qa_metric.type
+1 global pLDDT 1 pLDDT 
+2 local  pLDDT 1 pLDDT 
+#
+_ma_qa_metric_global.metric_id    1
+_ma_qa_metric_global.metric_value 92.20
+_ma_qa_metric_global.model_id     1
+_ma_qa_metric_global.ordinal_id   1
+#
+loop_
+_ma_qa_metric_local.label_asym_id
+_ma_qa_metric_local.label_comp_id
+_ma_qa_metric_local.label_seq_id
+_ma_qa_metric_local.metric_id
+_ma_qa_metric_local.metric_value
+_ma_qa_metric_local.model_id
+_ma_qa_metric_local.ordinal_id
+A MET 1  2 80.25 1 1  
+A ASN 2  2 95.44 1 2  
+A LEU 3  2 97.19 1 3  
+A GLU 4  2 98.06 1 4  
+A VAL 5  2 98.31 1 5  
+A ILE 6  2 98.50 1 6  
+A ALA 7  2 98.56 1 7  
+A GLN 8  2 98.62 1 8  
+A LEU 9  2 98.38 1 9  
+A THR 10 2 98.50 1 10 
+A VAL 11 2 98.69 1 11 
+A LEU 12 2 98.62 1 12 
+A ALA 13 2 98.75 1 13 
+A LEU 14 2 98.62 1 14 
+A ILE 15 2 98.62 1 15 
+A VAL 16 2 98.62 1 16 
+A ALA 17 2 98.62 1 17 
+A SER 18 2 97.75 1 18 
+A GLY 19 2 95.75 1 19 
+A PRO 20 2 97.31 1 20 
+A LEU 21 2 96.94 1 21 
+A VAL 22 2 93.31 1 22 
+A ILE 23 2 94.06 1 23 
+A ALA 24 2 94.12 1 24 
+A LEU 25 2 93.12 1 25 
+A LEU 26 2 91.94 1 26 
+A ALA 27 2 91.44 1 27 
+A ALA 28 2 91.81 1 28 
+A ARG 29 2 87.50 1 29 
+A LYS 30 2 73.81 1 30 
+A GLY 31 2 64.06 1 31 
+A ASN 32 2 66.44 1 32 
+A LEU 33 2 60.84 1 33 
+#
+_ma_software_group.group_id    1
+_ma_software_group.ordinal_id  1
+_ma_software_group.software_id 1
+#
+_ma_target_entity.data_id   1
+_ma_target_entity.entity_id 1
+_ma_target_entity.origin    "reference database"
+#
+_ma_target_entity_instance.asym_id   A
+_ma_target_entity_instance.details   .
+_ma_target_entity_instance.entity_id 1
+#
+_ma_target_ref_db_details.db_accession                 P31560
+_ma_target_ref_db_details.db_code                      PSB30_MARPO
+_ma_target_ref_db_details.db_name                      UNP
+_ma_target_ref_db_details.gene_name                    psb30
+_ma_target_ref_db_details.ncbi_taxonomy_id             3197
+_ma_target_ref_db_details.organism_scientific          "Marchantia polymorpha"
+_ma_target_ref_db_details.seq_db_align_begin           1
+_ma_target_ref_db_details.seq_db_align_end             33
+_ma_target_ref_db_details.seq_db_isoform               ?
+_ma_target_ref_db_details.seq_db_sequence_checksum     C88B5B778FF1C50D
+_ma_target_ref_db_details.seq_db_sequence_version_date 1993-07-01
+_ma_target_ref_db_details.target_entity_id             1
+#
+loop_
+_ma_template_details.ordinal_id
+_ma_template_details.target_asym_id
+_ma_template_details.template_auth_asym_id
+_ma_template_details.template_data_id
+_ma_template_details.template_entity_type
+_ma_template_details.template_id
+_ma_template_details.template_model_num
+_ma_template_details.template_origin
+_ma_template_details.template_trans_matrix_id
+1 A v  2 polymer 1 1 "reference database" 1 
+2 A V  2 polymer 2 1 "reference database" 1 
+3 A Y1 2 polymer 3 1 "reference database" 1 
+4 A y  2 polymer 4 1 "reference database" 1 
+#
+loop_
+_ma_template_ref_db_details.db_accession_code
+_ma_template_ref_db_details.db_name
+_ma_template_ref_db_details.template_id
+6KAC PDB 1 
+6KAD PDB 2 
+4YUU PDB 3 
+6J3Y PDB 4 
+#
+_ma_template_trans_matrix.id               1
+_ma_template_trans_matrix.rot_matrix[1][1] 1.0
+_ma_template_trans_matrix.rot_matrix[1][2] 0.0
+_ma_template_trans_matrix.rot_matrix[1][3] 0.0
+_ma_template_trans_matrix.rot_matrix[2][1] 0.0
+_ma_template_trans_matrix.rot_matrix[2][2] 1.0
+_ma_template_trans_matrix.rot_matrix[2][3] 0.0
+_ma_template_trans_matrix.rot_matrix[3][1] 0.0
+_ma_template_trans_matrix.rot_matrix[3][2] 0.0
+_ma_template_trans_matrix.rot_matrix[3][3] 1.0
+_ma_template_trans_matrix.tr_vector[1]     0.0
+_ma_template_trans_matrix.tr_vector[2]     0.0
+_ma_template_trans_matrix.tr_vector[3]     0.0
+#
+loop_
+_pdbx_audit_revision_details.data_content_type
+_pdbx_audit_revision_details.description
+_pdbx_audit_revision_details.ordinal
+_pdbx_audit_revision_details.provider
+_pdbx_audit_revision_details.revision_ordinal
+_pdbx_audit_revision_details.type
+"Structure model" "Format fixes, new metadata, initial SwissProt release" 2 repository 2 Remediation 
+"Structure model" "Format fixes, new metadata, initial UniProt release"   3 repository 3 Remediation 
+"Structure model" "Improved prediction accuracy, small format fixes"      4 repository 4 Remediation 
+"Structure model" "Update to UniProt 2024_06, small format fixes"         5 repository 5 Release     
+"Structure model" "Update to UniProt 2025_03"                             6 repository 6 Release     
+#
+loop_
+_pdbx_audit_revision_history.data_content_type
+_pdbx_audit_revision_history.major_revision
+_pdbx_audit_revision_history.minor_revision
+_pdbx_audit_revision_history.ordinal
+_pdbx_audit_revision_history.revision_date
+"Structure model" 2 0 2 2021-12-09 
+"Structure model" 3 0 3 2022-06-01 
+"Structure model" 4 0 4 2022-09-30 
+"Structure model" 5 0 5 2025-03-31 
+"Structure model" 6 0 6 2025-08-01 
+#
+loop_
+_pdbx_data_usage.details
+_pdbx_data_usage.id
+_pdbx_data_usage.name
+_pdbx_data_usage.type
+_pdbx_data_usage.url
+"Data in this file is available under a CC-BY-4.0 license." 1 CC-BY-4.0 license    https://creativecommons.org/licenses/by/4.0/ 
+;ALPHAFOLD DATA, COPYRIGHT (2021) DEEPMIND TECHNOLOGIES LIMITED. THE INFORMATION
+PROVIDED IS THEORETICAL MODELLING ONLY AND CAUTION SHOULD BE EXERCISED IN ITS
+USE. IT IS PROVIDED "AS-IS" WITHOUT ANY WARRANTY OF ANY KIND, WHETHER EXPRESSED
+OR IMPLIED. NO WARRANTY IS GIVEN THAT USE OF THE INFORMATION SHALL NOT INFRINGE
+THE RIGHTS OF ANY THIRD PARTY. DISCLAIMER: THE INFORMATION IS NOT INTENDED TO BE
+A SUBSTITUTE FOR PROFESSIONAL MEDICAL ADVICE, DIAGNOSIS, OR TREATMENT, AND DOES
+NOT CONSTITUTE MEDICAL OR OTHER PROFESSIONAL ADVICE. IT IS AVAILABLE FOR
+ACADEMIC AND COMMERCIAL PURPOSES, UNDER CC-BY 4.0 LICENCE.
+;
+2 ?         disclaimer ?                                            
+#
+_pdbx_database_status.entry_id                      AF-P31560-F1
+_pdbx_database_status.recvd_initial_deposition_date 2025-08-01
+_pdbx_database_status.status_code                   REL
+#
+loop_
+_pdbx_poly_seq_scheme.asym_id
+_pdbx_poly_seq_scheme.auth_seq_num
+_pdbx_poly_seq_scheme.entity_id
+_pdbx_poly_seq_scheme.hetero
+_pdbx_poly_seq_scheme.mon_id
+_pdbx_poly_seq_scheme.pdb_ins_code
+_pdbx_poly_seq_scheme.pdb_mon_id
+_pdbx_poly_seq_scheme.pdb_seq_num
+_pdbx_poly_seq_scheme.pdb_strand_id
+_pdbx_poly_seq_scheme.seq_id
+A 1  1 n MET . MET 1  A 1  
+A 2  1 n ASN . ASN 2  A 2  
+A 3  1 n LEU . LEU 3  A 3  
+A 4  1 n GLU . GLU 4  A 4  
+A 5  1 n VAL . VAL 5  A 5  
+A 6  1 n ILE . ILE 6  A 6  
+A 7  1 n ALA . ALA 7  A 7  
+A 8  1 n GLN . GLN 8  A 8  
+A 9  1 n LEU . LEU 9  A 9  
+A 10 1 n THR . THR 10 A 10 
+A 11 1 n VAL . VAL 11 A 11 
+A 12 1 n LEU . LEU 12 A 12 
+A 13 1 n ALA . ALA 13 A 13 
+A 14 1 n LEU . LEU 14 A 14 
+A 15 1 n ILE . ILE 15 A 15 
+A 16 1 n VAL . VAL 16 A 16 
+A 17 1 n ALA . ALA 17 A 17 
+A 18 1 n SER . SER 18 A 18 
+A 19 1 n GLY . GLY 19 A 19 
+A 20 1 n PRO . PRO 20 A 20 
+A 21 1 n LEU . LEU 21 A 21 
+A 22 1 n VAL . VAL 22 A 22 
+A 23 1 n ILE . ILE 23 A 23 
+A 24 1 n ALA . ALA 24 A 24 
+A 25 1 n LEU . LEU 25 A 25 
+A 26 1 n LEU . LEU 26 A 26 
+A 27 1 n ALA . ALA 27 A 27 
+A 28 1 n ALA . ALA 28 A 28 
+A 29 1 n ARG . ARG 29 A 29 
+A 30 1 n LYS . LYS 30 A 30 
+A 31 1 n GLY . GLY 31 A 31 
+A 32 1 n ASN . ASN 32 A 32 
+A 33 1 n LEU . LEU 33 A 33 
+#
+loop_
+_software.classification
+_software.date
+_software.description
+_software.name
+_software.pdbx_ordinal
+_software.type
+_software.version
+other ? "Structure prediction" AlphaFold 1 package v2.0 
+other ? "Secondary structure"  dssp      2 library 4    
+#
+_struct_asym.entity_id 1
+_struct_asym.id        A
+#
+loop_
+_struct_conf.beg_auth_asym_id
+_struct_conf.beg_auth_comp_id
+_struct_conf.beg_auth_seq_id
+_struct_conf.beg_label_asym_id
+_struct_conf.beg_label_comp_id
+_struct_conf.beg_label_seq_id
+_struct_conf.conf_type_id
+_struct_conf.end_auth_asym_id
+_struct_conf.end_auth_comp_id
+_struct_conf.end_auth_seq_id
+_struct_conf.end_label_asym_id
+_struct_conf.end_label_comp_id
+_struct_conf.end_label_seq_id
+_struct_conf.id
+_struct_conf.pdbx_beg_PDB_ins_code
+_struct_conf.pdbx_end_PDB_ins_code
+A LEU 3  A LEU 3  HELX_RH_AL_P A ALA 28 A ALA 28 HELX_RH_AL_P1 ? ? 
+A ARG 29 A ARG 29 TURN_TY1_P   A LYS 30 A LYS 30 TURN_TY1_P1   ? ? 
+#
+loop_
+_struct_conf_type.criteria
+_struct_conf_type.id
+DSSP HELX_RH_AL_P 
+DSSP TURN_TY1_P   
+#
+_struct_ref.db_code                  PSB30_MARPO
+_struct_ref.db_name                  UNP
+_struct_ref.entity_id                1
+_struct_ref.id                       1
+_struct_ref.pdbx_align_begin         1
+_struct_ref.pdbx_align_end           33
+_struct_ref.pdbx_db_accession        P31560
+_struct_ref.pdbx_db_isoform          ?
+_struct_ref.pdbx_seq_one_letter_code MNLEVIAQLTVLALIVASGPLVIALLAARKGNL
+#
+_struct_ref_seq.align_id                    1
+_struct_ref_seq.db_align_beg                1
+_struct_ref_seq.db_align_end                33
+_struct_ref_seq.pdbx_PDB_id_code            AF-P31560-F1
+_struct_ref_seq.pdbx_auth_seq_align_beg     1
+_struct_ref_seq.pdbx_auth_seq_align_end     33
+_struct_ref_seq.pdbx_db_accession           P31560
+_struct_ref_seq.pdbx_db_align_beg_ins_code  ?
+_struct_ref_seq.pdbx_db_align_end_ins_code  ?
+_struct_ref_seq.pdbx_seq_align_beg_ins_code ?
+_struct_ref_seq.pdbx_seq_align_end_ins_code ?
+_struct_ref_seq.pdbx_strand_id              A
+_struct_ref_seq.ref_id                      1
+_struct_ref_seq.seq_align_beg               1
+_struct_ref_seq.seq_align_end               33
+#
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_comp_id
+_atom_site.auth_asym_id
+_atom_site.auth_atom_id
+_atom_site.pdbx_PDB_model_num
+_atom_site.pdbx_sifts_xref_db_acc
+_atom_site.pdbx_sifts_xref_db_name
+_atom_site.pdbx_sifts_xref_db_num
+_atom_site.pdbx_sifts_xref_db_res
+ATOM 1   N N   . MET A 1 1  ? -19.611 -7.850 5.294   1.00 80.25 ? 1  MET A N   1 P31560 UNP 1  M 
+ATOM 2   C CA  . MET A 1 1  ? -18.213 -7.384 5.393   1.00 80.25 ? 1  MET A CA  1 P31560 UNP 1  M 
+ATOM 3   C C   . MET A 1 1  ? -18.208 -6.157 6.288   1.00 80.25 ? 1  MET A C   1 P31560 UNP 1  M 
+ATOM 4   C CB  . MET A 1 1  ? -17.659 -7.104 3.988   1.00 80.25 ? 1  MET A CB  1 P31560 UNP 1  M 
+ATOM 5   O O   . MET A 1 1  ? -18.983 -5.249 6.021   1.00 80.25 ? 1  MET A O   1 P31560 UNP 1  M 
+ATOM 6   C CG  . MET A 1 1  ? -16.186 -6.704 3.999   1.00 80.25 ? 1  MET A CG  1 P31560 UNP 1  M 
+ATOM 7   S SD  . MET A 1 1  ? -15.356 -6.820 2.388   1.00 80.25 ? 1  MET A SD  1 P31560 UNP 1  M 
+ATOM 8   C CE  . MET A 1 1  ? -16.373 -5.750 1.330   1.00 80.25 ? 1  MET A CE  1 P31560 UNP 1  M 
+ATOM 9   N N   . ASN A 1 2  ? -17.463 -6.176 7.392   1.00 95.44 ? 2  ASN A N   1 P31560 UNP 2  N 
+ATOM 10  C CA  . ASN A 1 2  ? -17.375 -5.027 8.299   1.00 95.44 ? 2  ASN A CA  1 P31560 UNP 2  N 
+ATOM 11  C C   . ASN A 1 2  ? -16.357 -4.002 7.758   1.00 95.44 ? 2  ASN A C   1 P31560 UNP 2  N 
+ATOM 12  C CB  . ASN A 1 2  ? -17.084 -5.525 9.737   1.00 95.44 ? 2  ASN A CB  1 P31560 UNP 2  N 
+ATOM 13  O O   . ASN A 1 2  ? -15.574 -4.308 6.857   1.00 95.44 ? 2  ASN A O   1 P31560 UNP 2  N 
+ATOM 14  C CG  . ASN A 1 2  ? -15.752 -6.242 9.884   1.00 95.44 ? 2  ASN A CG  1 P31560 UNP 2  N 
+ATOM 15  N ND2 . ASN A 1 2  ? -15.469 -6.855 11.005  1.00 95.44 ? 2  ASN A ND2 1 P31560 UNP 2  N 
+ATOM 16  O OD1 . ASN A 1 2  ? -14.960 -6.263 8.970   1.00 95.44 ? 2  ASN A OD1 1 P31560 UNP 2  N 
+ATOM 17  N N   . LEU A 1 3  ? -16.379 -2.780 8.296   1.00 97.19 ? 3  LEU A N   1 P31560 UNP 3  L 
+ATOM 18  C CA  . LEU A 1 3  ? -15.460 -1.720 7.869   1.00 97.19 ? 3  LEU A CA  1 P31560 UNP 3  L 
+ATOM 19  C C   . LEU A 1 3  ? -13.988 -2.072 8.160   1.00 97.19 ? 3  LEU A C   1 P31560 UNP 3  L 
+ATOM 20  C CB  . LEU A 1 3  ? -15.894 -0.407 8.547   1.00 97.19 ? 3  LEU A CB  1 P31560 UNP 3  L 
+ATOM 21  O O   . LEU A 1 3  ? -13.109 -1.709 7.384   1.00 97.19 ? 3  LEU A O   1 P31560 UNP 3  L 
+ATOM 22  C CG  . LEU A 1 3  ? -15.185 0.854  8.018   1.00 97.19 ? 3  LEU A CG  1 P31560 UNP 3  L 
+ATOM 23  C CD1 . LEU A 1 3  ? -15.495 1.111  6.540   1.00 97.19 ? 3  LEU A CD1 1 P31560 UNP 3  L 
+ATOM 24  C CD2 . LEU A 1 3  ? -15.652 2.068  8.822   1.00 97.19 ? 3  LEU A CD2 1 P31560 UNP 3  L 
+ATOM 25  N N   . GLU A 1 4  ? -13.730 -2.831 9.231   1.00 98.06 ? 4  GLU A N   1 P31560 UNP 4  E 
+ATOM 26  C CA  . GLU A 1 4  ? -12.395 -3.321 9.601   1.00 98.06 ? 4  GLU A CA  1 P31560 UNP 4  E 
+ATOM 27  C C   . GLU A 1 4  ? -11.771 -4.201 8.508   1.00 98.06 ? 4  GLU A C   1 P31560 UNP 4  E 
+ATOM 28  C CB  . GLU A 1 4  ? -12.511 -4.090 10.923  1.00 98.06 ? 4  GLU A CB  1 P31560 UNP 4  E 
+ATOM 29  O O   . GLU A 1 4  ? -10.648 -3.944 8.078   1.00 98.06 ? 4  GLU A O   1 P31560 UNP 4  E 
+ATOM 30  C CG  . GLU A 1 4  ? -11.149 -4.546 11.468  1.00 98.06 ? 4  GLU A CG  1 P31560 UNP 4  E 
+ATOM 31  C CD  . GLU A 1 4  ? -11.283 -5.428 12.716  1.00 98.06 ? 4  GLU A CD  1 P31560 UNP 4  E 
+ATOM 32  O OE1 . GLU A 1 4  ? -10.313 -6.170 12.986  1.00 98.06 ? 4  GLU A OE1 1 P31560 UNP 4  E 
+ATOM 33  O OE2 . GLU A 1 4  ? -12.359 -5.379 13.358  1.00 98.06 ? 4  GLU A OE2 1 P31560 UNP 4  E 
+ATOM 34  N N   . VAL A 1 5  ? -12.511 -5.188 7.993   1.00 98.31 ? 5  VAL A N   1 P31560 UNP 5  V 
+ATOM 35  C CA  . VAL A 1 5  ? -12.033 -6.073 6.919   1.00 98.31 ? 5  VAL A CA  1 P31560 UNP 5  V 
+ATOM 36  C C   . VAL A 1 5  ? -11.785 -5.283 5.633   1.00 98.31 ? 5  VAL A C   1 P31560 UNP 5  V 
+ATOM 37  C CB  . VAL A 1 5  ? -13.019 -7.239 6.693   1.00 98.31 ? 5  VAL A CB  1 P31560 UNP 5  V 
+ATOM 38  O O   . VAL A 1 5  ? -10.790 -5.524 4.953   1.00 98.31 ? 5  VAL A O   1 P31560 UNP 5  V 
+ATOM 39  C CG1 . VAL A 1 5  ? -12.736 -8.041 5.416   1.00 98.31 ? 5  VAL A CG1 1 P31560 UNP 5  V 
+ATOM 40  C CG2 . VAL A 1 5  ? -12.952 -8.238 7.859   1.00 98.31 ? 5  VAL A CG2 1 P31560 UNP 5  V 
+ATOM 41  N N   . ILE A 1 6  ? -12.630 -4.295 5.311   1.00 98.50 ? 6  ILE A N   1 P31560 UNP 6  I 
+ATOM 42  C CA  . ILE A 1 6  ? -12.408 -3.412 4.150   1.00 98.50 ? 6  ILE A CA  1 P31560 UNP 6  I 
+ATOM 43  C C   . ILE A 1 6  ? -11.093 -2.643 4.308   1.00 98.50 ? 6  ILE A C   1 P31560 UNP 6  I 
+ATOM 44  C CB  . ILE A 1 6  ? -13.593 -2.438 3.937   1.00 98.50 ? 6  ILE A CB  1 P31560 UNP 6  I 
+ATOM 45  O O   . ILE A 1 6  ? -10.299 -2.584 3.367   1.00 98.50 ? 6  ILE A O   1 P31560 UNP 6  I 
+ATOM 46  C CG1 . ILE A 1 6  ? -14.873 -3.235 3.625   1.00 98.50 ? 6  ILE A CG1 1 P31560 UNP 6  I 
+ATOM 47  C CG2 . ILE A 1 6  ? -13.301 -1.445 2.795   1.00 98.50 ? 6  ILE A CG2 1 P31560 UNP 6  I 
+ATOM 48  C CD1 . ILE A 1 6  ? -16.163 -2.409 3.561   1.00 98.50 ? 6  ILE A CD1 1 P31560 UNP 6  I 
+ATOM 49  N N   . ALA A 1 7  ? -10.838 -2.078 5.491   1.00 98.56 ? 7  ALA A N   1 P31560 UNP 7  A 
+ATOM 50  C CA  . ALA A 1 7  ? -9.611  -1.341 5.771   1.00 98.56 ? 7  ALA A CA  1 P31560 UNP 7  A 
+ATOM 51  C C   . ALA A 1 7  ? -8.369  -2.240 5.666   1.00 98.56 ? 7  ALA A C   1 P31560 UNP 7  A 
+ATOM 52  C CB  . ALA A 1 7  ? -9.736  -0.689 7.152   1.00 98.56 ? 7  ALA A CB  1 P31560 UNP 7  A 
+ATOM 53  O O   . ALA A 1 7  ? -7.401  -1.866 5.006   1.00 98.56 ? 7  ALA A O   1 P31560 UNP 7  A 
+ATOM 54  N N   . GLN A 1 8  ? -8.408  -3.447 6.236   1.00 98.62 ? 8  GLN A N   1 P31560 UNP 8  Q 
+ATOM 55  C CA  . GLN A 1 8  ? -7.303  -4.410 6.164   1.00 98.62 ? 8  GLN A CA  1 P31560 UNP 8  Q 
+ATOM 56  C C   . GLN A 1 8  ? -6.988  -4.826 4.724   1.00 98.62 ? 8  GLN A C   1 P31560 UNP 8  Q 
+ATOM 57  C CB  . GLN A 1 8  ? -7.653  -5.652 6.990   1.00 98.62 ? 8  GLN A CB  1 P31560 UNP 8  Q 
+ATOM 58  O O   . GLN A 1 8  ? -5.828  -4.799 4.316   1.00 98.62 ? 8  GLN A O   1 P31560 UNP 8  Q 
+ATOM 59  C CG  . GLN A 1 8  ? -7.582  -5.391 8.501   1.00 98.62 ? 8  GLN A CG  1 P31560 UNP 8  Q 
+ATOM 60  C CD  . GLN A 1 8  ? -8.080  -6.577 9.322   1.00 98.62 ? 8  GLN A CD  1 P31560 UNP 8  Q 
+ATOM 61  N NE2 . GLN A 1 8  ? -7.793  -6.606 10.604  1.00 98.62 ? 8  GLN A NE2 1 P31560 UNP 8  Q 
+ATOM 62  O OE1 . GLN A 1 8  ? -8.745  -7.478 8.836   1.00 98.62 ? 8  GLN A OE1 1 P31560 UNP 8  Q 
+ATOM 63  N N   . LEU A 1 9  ? -8.013  -5.156 3.931   1.00 98.38 ? 9  LEU A N   1 P31560 UNP 9  L 
+ATOM 64  C CA  . LEU A 1 9  ? -7.839  -5.503 2.519   1.00 98.38 ? 9  LEU A CA  1 P31560 UNP 9  L 
+ATOM 65  C C   . LEU A 1 9  ? -7.312  -4.321 1.701   1.00 98.38 ? 9  LEU A C   1 P31560 UNP 9  L 
+ATOM 66  C CB  . LEU A 1 9  ? -9.173  -5.999 1.941   1.00 98.38 ? 9  LEU A CB  1 P31560 UNP 9  L 
+ATOM 67  O O   . LEU A 1 9  ? -6.481  -4.514 0.819   1.00 98.38 ? 9  LEU A O   1 P31560 UNP 9  L 
+ATOM 68  C CG  . LEU A 1 9  ? -9.623  -7.375 2.463   1.00 98.38 ? 9  LEU A CG  1 P31560 UNP 9  L 
+ATOM 69  C CD1 . LEU A 1 9  ? -11.001 -7.700 1.886   1.00 98.38 ? 9  LEU A CD1 1 P31560 UNP 9  L 
+ATOM 70  C CD2 . LEU A 1 9  ? -8.655  -8.492 2.065   1.00 98.38 ? 9  LEU A CD2 1 P31560 UNP 9  L 
+ATOM 71  N N   . THR A 1 10 ? -7.746  -3.100 2.020   1.00 98.50 ? 10 THR A N   1 P31560 UNP 10 T 
+ATOM 72  C CA  . THR A 1 10 ? -7.241  -1.881 1.377   1.00 98.50 ? 10 THR A CA  1 P31560 UNP 10 T 
+ATOM 73  C C   . THR A 1 10 ? -5.759  -1.681 1.682   1.00 98.50 ? 10 THR A C   1 P31560 UNP 10 T 
+ATOM 74  C CB  . THR A 1 10 ? -8.047  -0.650 1.816   1.00 98.50 ? 10 THR A CB  1 P31560 UNP 10 T 
+ATOM 75  O O   . THR A 1 10 ? -4.970  -1.476 0.765   1.00 98.50 ? 10 THR A O   1 P31560 UNP 10 T 
+ATOM 76  C CG2 . THR A 1 10 ? -7.585  0.630  1.119   1.00 98.50 ? 10 THR A CG2 1 P31560 UNP 10 T 
+ATOM 77  O OG1 . THR A 1 10 ? -9.407  -0.825 1.495   1.00 98.50 ? 10 THR A OG1 1 P31560 UNP 10 T 
+ATOM 78  N N   . VAL A 1 11 ? -5.351  -1.801 2.950   1.00 98.69 ? 11 VAL A N   1 P31560 UNP 11 V 
+ATOM 79  C CA  . VAL A 1 11 ? -3.940  -1.705 3.359   1.00 98.69 ? 11 VAL A CA  1 P31560 UNP 11 V 
+ATOM 80  C C   . VAL A 1 11 ? -3.105  -2.791 2.685   1.00 98.69 ? 11 VAL A C   1 P31560 UNP 11 V 
+ATOM 81  C CB  . VAL A 1 11 ? -3.811  -1.775 4.893   1.00 98.69 ? 11 VAL A CB  1 P31560 UNP 11 V 
+ATOM 82  O O   . VAL A 1 11 ? -2.052  -2.488 2.128   1.00 98.69 ? 11 VAL A O   1 P31560 UNP 11 V 
+ATOM 83  C CG1 . VAL A 1 11 ? -2.355  -1.900 5.363   1.00 98.69 ? 11 VAL A CG1 1 P31560 UNP 11 V 
+ATOM 84  C CG2 . VAL A 1 11 ? -4.386  -0.507 5.539   1.00 98.69 ? 11 VAL A CG2 1 P31560 UNP 11 V 
+ATOM 85  N N   . LEU A 1 12 ? -3.588  -4.035 2.662   1.00 98.62 ? 12 LEU A N   1 P31560 UNP 12 L 
+ATOM 86  C CA  . LEU A 1 12 ? -2.915  -5.134 1.974   1.00 98.62 ? 12 LEU A CA  1 P31560 UNP 12 L 
+ATOM 87  C C   . LEU A 1 12 ? -2.750  -4.847 0.476   1.00 98.62 ? 12 LEU A C   1 P31560 UNP 12 L 
+ATOM 88  C CB  . LEU A 1 12 ? -3.700  -6.433 2.220   1.00 98.62 ? 12 LEU A CB  1 P31560 UNP 12 L 
+ATOM 89  O O   . LEU A 1 12 ? -1.658  -5.020 -0.060  1.00 98.62 ? 12 LEU A O   1 P31560 UNP 12 L 
+ATOM 90  C CG  . LEU A 1 12 ? -3.096  -7.669 1.527   1.00 98.62 ? 12 LEU A CG  1 P31560 UNP 12 L 
+ATOM 91  C CD1 . LEU A 1 12 ? -1.682  -7.982 2.022   1.00 98.62 ? 12 LEU A CD1 1 P31560 UNP 12 L 
+ATOM 92  C CD2 . LEU A 1 12 ? -3.984  -8.884 1.787   1.00 98.62 ? 12 LEU A CD2 1 P31560 UNP 12 L 
+ATOM 93  N N   . ALA A 1 13 ? -3.802  -4.369 -0.192  1.00 98.75 ? 13 ALA A N   1 P31560 UNP 13 A 
+ATOM 94  C CA  . ALA A 1 13 ? -3.749  -4.013 -1.605  1.00 98.75 ? 13 ALA A CA  1 P31560 UNP 13 A 
+ATOM 95  C C   . ALA A 1 13 ? -2.743  -2.886 -1.872  1.00 98.75 ? 13 ALA A C   1 P31560 UNP 13 A 
+ATOM 96  C CB  . ALA A 1 13 ? -5.156  -3.634 -2.080  1.00 98.75 ? 13 ALA A CB  1 P31560 UNP 13 A 
+ATOM 97  O O   . ALA A 1 13 ? -1.979  -2.980 -2.827  1.00 98.75 ? 13 ALA A O   1 P31560 UNP 13 A 
+ATOM 98  N N   . LEU A 1 14 ? -2.686  -1.861 -1.015  1.00 98.62 ? 14 LEU A N   1 P31560 UNP 14 L 
+ATOM 99  C CA  . LEU A 1 14 ? -1.700  -0.782 -1.119  1.00 98.62 ? 14 LEU A CA  1 P31560 UNP 14 L 
+ATOM 100 C C   . LEU A 1 14 ? -0.266  -1.297 -0.931  1.00 98.62 ? 14 LEU A C   1 P31560 UNP 14 L 
+ATOM 101 C CB  . LEU A 1 14 ? -2.020  0.317  -0.089  1.00 98.62 ? 14 LEU A CB  1 P31560 UNP 14 L 
+ATOM 102 O O   . LEU A 1 14 ? 0.618   -0.926 -1.703  1.00 98.62 ? 14 LEU A O   1 P31560 UNP 14 L 
+ATOM 103 C CG  . LEU A 1 14 ? -3.300  1.127  -0.367  1.00 98.62 ? 14 LEU A CG  1 P31560 UNP 14 L 
+ATOM 104 C CD1 . LEU A 1 14 ? -3.566  2.069  0.809   1.00 98.62 ? 14 LEU A CD1 1 P31560 UNP 14 L 
+ATOM 105 C CD2 . LEU A 1 14 ? -3.199  1.962  -1.644  1.00 98.62 ? 14 LEU A CD2 1 P31560 UNP 14 L 
+ATOM 106 N N   . ILE A 1 15 ? -0.036  -2.183 0.046   1.00 98.62 ? 15 ILE A N   1 P31560 UNP 15 I 
+ATOM 107 C CA  . ILE A 1 15 ? 1.273   -2.814 0.275   1.00 98.62 ? 15 ILE A CA  1 P31560 UNP 15 I 
+ATOM 108 C C   . ILE A 1 15 ? 1.689   -3.617 -0.959  1.00 98.62 ? 15 ILE A C   1 P31560 UNP 15 I 
+ATOM 109 C CB  . ILE A 1 15 ? 1.254   -3.692 1.550   1.00 98.62 ? 15 ILE A CB  1 P31560 UNP 15 I 
+ATOM 110 O O   . ILE A 1 15 ? 2.782   -3.412 -1.482  1.00 98.62 ? 15 ILE A O   1 P31560 UNP 15 I 
+ATOM 111 C CG1 . ILE A 1 15 ? 1.149   -2.803 2.809   1.00 98.62 ? 15 ILE A CG1 1 P31560 UNP 15 I 
+ATOM 112 C CG2 . ILE A 1 15 ? 2.518   -4.572 1.646   1.00 98.62 ? 15 ILE A CG2 1 P31560 UNP 15 I 
+ATOM 113 C CD1 . ILE A 1 15 ? 0.799   -3.583 4.083   1.00 98.62 ? 15 ILE A CD1 1 P31560 UNP 15 I 
+ATOM 114 N N   . VAL A 1 16 ? 0.815   -4.488 -1.465  1.00 98.62 ? 16 VAL A N   1 P31560 UNP 16 V 
+ATOM 115 C CA  . VAL A 1 16 ? 1.110   -5.324 -2.637  1.00 98.62 ? 16 VAL A CA  1 P31560 UNP 16 V 
+ATOM 116 C C   . VAL A 1 16 ? 1.324   -4.468 -3.885  1.00 98.62 ? 16 VAL A C   1 P31560 UNP 16 V 
+ATOM 117 C CB  . VAL A 1 16 ? -0.005  -6.367 -2.852  1.00 98.62 ? 16 VAL A CB  1 P31560 UNP 16 V 
+ATOM 118 O O   . VAL A 1 16 ? 2.271   -4.704 -4.630  1.00 98.62 ? 16 VAL A O   1 P31560 UNP 16 V 
+ATOM 119 C CG1 . VAL A 1 16 ? 0.154   -7.136 -4.170  1.00 98.62 ? 16 VAL A CG1 1 P31560 UNP 16 V 
+ATOM 120 C CG2 . VAL A 1 16 ? 0.005   -7.404 -1.719  1.00 98.62 ? 16 VAL A CG2 1 P31560 UNP 16 V 
+ATOM 121 N N   . ALA A 1 17 ? 0.494   -3.445 -4.100  1.00 98.62 ? 17 ALA A N   1 P31560 UNP 17 A 
+ATOM 122 C CA  . ALA A 1 17 ? 0.597   -2.560 -5.255  1.00 98.62 ? 17 ALA A CA  1 P31560 UNP 17 A 
+ATOM 123 C C   . ALA A 1 17 ? 1.857   -1.682 -5.226  1.00 98.62 ? 17 ALA A C   1 P31560 UNP 17 A 
+ATOM 124 C CB  . ALA A 1 17 ? -0.673  -1.707 -5.341  1.00 98.62 ? 17 ALA A CB  1 P31560 UNP 17 A 
+ATOM 125 O O   . ALA A 1 17 ? 2.348   -1.308 -6.289  1.00 98.62 ? 17 ALA A O   1 P31560 UNP 17 A 
+ATOM 126 N N   . SER A 1 18 ? 2.412   -1.381 -4.046  1.00 97.75 ? 18 SER A N   1 P31560 UNP 18 S 
+ATOM 127 C CA  . SER A 1 18 ? 3.609   -0.541 -3.922  1.00 97.75 ? 18 SER A CA  1 P31560 UNP 18 S 
+ATOM 128 C C   . SER A 1 18 ? 4.821   -1.101 -4.679  1.00 97.75 ? 18 SER A C   1 P31560 UNP 18 S 
+ATOM 129 C CB  . SER A 1 18 ? 3.952   -0.299 -2.447  1.00 97.75 ? 18 SER A CB  1 P31560 UNP 18 S 
+ATOM 130 O O   . SER A 1 18 ? 5.534   -0.334 -5.324  1.00 97.75 ? 18 SER A O   1 P31560 UNP 18 S 
+ATOM 131 O OG  . SER A 1 18 ? 4.497   -1.446 -1.828  1.00 97.75 ? 18 SER A OG  1 P31560 UNP 18 S 
+ATOM 132 N N   . GLY A 1 19 ? 5.014   -2.426 -4.686  1.00 95.75 ? 19 GLY A N   1 P31560 UNP 19 G 
+ATOM 133 C CA  . GLY A 1 19 ? 6.131   -3.073 -5.382  1.00 95.75 ? 19 GLY A CA  1 P31560 UNP 19 G 
+ATOM 134 C C   . GLY A 1 19 ? 6.097   -2.828 -6.896  1.00 95.75 ? 19 GLY A C   1 P31560 UNP 19 G 
+ATOM 135 O O   . GLY A 1 19 ? 6.987   -2.159 -7.425  1.00 95.75 ? 19 GLY A O   1 P31560 UNP 19 G 
+ATOM 136 N N   . PRO A 1 20 ? 5.053   -3.293 -7.608  1.00 97.31 ? 20 PRO A N   1 P31560 UNP 20 P 
+ATOM 137 C CA  . PRO A 1 20 ? 4.887   -3.029 -9.035  1.00 97.31 ? 20 PRO A CA  1 P31560 UNP 20 P 
+ATOM 138 C C   . PRO A 1 20 ? 4.808   -1.538 -9.374  1.00 97.31 ? 20 PRO A C   1 P31560 UNP 20 P 
+ATOM 139 C CB  . PRO A 1 20 ? 3.598   -3.752 -9.438  1.00 97.31 ? 20 PRO A CB  1 P31560 UNP 20 P 
+ATOM 140 O O   . PRO A 1 20 ? 5.299   -1.131 -10.424 1.00 97.31 ? 20 PRO A O   1 P31560 UNP 20 P 
+ATOM 141 C CG  . PRO A 1 20 ? 3.476   -4.868 -8.404  1.00 97.31 ? 20 PRO A CG  1 P31560 UNP 20 P 
+ATOM 142 C CD  . PRO A 1 20 ? 4.026   -4.211 -7.144  1.00 97.31 ? 20 PRO A CD  1 P31560 UNP 20 P 
+ATOM 143 N N   . LEU A 1 21 ? 4.229   -0.711 -8.495  1.00 96.94 ? 21 LEU A N   1 P31560 UNP 21 L 
+ATOM 144 C CA  . LEU A 1 21 ? 4.121   0.729  -8.723  1.00 96.94 ? 21 LEU A CA  1 P31560 UNP 21 L 
+ATOM 145 C C   . LEU A 1 21 ? 5.498   1.396  -8.810  1.00 96.94 ? 21 LEU A C   1 P31560 UNP 21 L 
+ATOM 146 C CB  . LEU A 1 21 ? 3.248   1.354  -7.623  1.00 96.94 ? 21 LEU A CB  1 P31560 UNP 21 L 
+ATOM 147 O O   . LEU A 1 21 ? 5.724   2.193  -9.716  1.00 96.94 ? 21 LEU A O   1 P31560 UNP 21 L 
+ATOM 148 C CG  . LEU A 1 21 ? 3.012   2.866  -7.772  1.00 96.94 ? 21 LEU A CG  1 P31560 UNP 21 L 
+ATOM 149 C CD1 . LEU A 1 21 ? 2.275   3.208  -9.069  1.00 96.94 ? 21 LEU A CD1 1 P31560 UNP 21 L 
+ATOM 150 C CD2 . LEU A 1 21 ? 2.179   3.369  -6.594  1.00 96.94 ? 21 LEU A CD2 1 P31560 UNP 21 L 
+ATOM 151 N N   . VAL A 1 22 ? 6.438   1.051  -7.926  1.00 93.31 ? 22 VAL A N   1 P31560 UNP 22 V 
+ATOM 152 C CA  . VAL A 1 22 ? 7.810   1.587  -7.985  1.00 93.31 ? 22 VAL A CA  1 P31560 UNP 22 V 
+ATOM 153 C C   . VAL A 1 22 ? 8.487   1.205  -9.301  1.00 93.31 ? 22 VAL A C   1 P31560 UNP 22 V 
+ATOM 154 C CB  . VAL A 1 22 ? 8.636   1.113  -6.774  1.00 93.31 ? 22 VAL A CB  1 P31560 UNP 22 V 
+ATOM 155 O O   . VAL A 1 22 ? 9.085   2.061  -9.954  1.00 93.31 ? 22 VAL A O   1 P31560 UNP 22 V 
+ATOM 156 C CG1 . VAL A 1 22 ? 10.126  1.457  -6.905  1.00 93.31 ? 22 VAL A CG1 1 P31560 UNP 22 V 
+ATOM 157 C CG2 . VAL A 1 22 ? 8.129   1.789  -5.494  1.00 93.31 ? 22 VAL A CG2 1 P31560 UNP 22 V 
+ATOM 158 N N   . ILE A 1 23 ? 8.333   -0.048 -9.732  1.00 94.06 ? 23 ILE A N   1 P31560 UNP 23 I 
+ATOM 159 C CA  . ILE A 1 23 ? 8.882   -0.524 -11.007 1.00 94.06 ? 23 ILE A CA  1 P31560 UNP 23 I 
+ATOM 160 C C   . ILE A 1 23 ? 8.269   0.238  -12.186 1.00 94.06 ? 23 ILE A C   1 P31560 UNP 23 I 
+ATOM 161 C CB  . ILE A 1 23 ? 8.685   -2.051 -11.133 1.00 94.06 ? 23 ILE A CB  1 P31560 UNP 23 I 
+ATOM 162 O O   . ILE A 1 23 ? 8.995   0.762  -13.029 1.00 94.06 ? 23 ILE A O   1 P31560 UNP 23 I 
+ATOM 163 C CG1 . ILE A 1 23 ? 9.396   -2.832 -10.004 1.00 94.06 ? 23 ILE A CG1 1 P31560 UNP 23 I 
+ATOM 164 C CG2 . ILE A 1 23 ? 9.137   -2.590 -12.500 1.00 94.06 ? 23 ILE A CG2 1 P31560 UNP 23 I 
+ATOM 165 C CD1 . ILE A 1 23 ? 10.884  -2.505 -9.796  1.00 94.06 ? 23 ILE A CD1 1 P31560 UNP 23 I 
+ATOM 166 N N   . ALA A 1 24 ? 6.943   0.372  -12.221 1.00 94.12 ? 24 ALA A N   1 P31560 UNP 24 A 
+ATOM 167 C CA  . ALA A 1 24 ? 6.244   1.101  -13.274 1.00 94.12 ? 24 ALA A CA  1 P31560 UNP 24 A 
+ATOM 168 C C   . ALA A 1 24 ? 6.683   2.571  -13.346 1.00 94.12 ? 24 ALA A C   1 P31560 UNP 24 A 
+ATOM 169 C CB  . ALA A 1 24 ? 4.736   0.978  -13.026 1.00 94.12 ? 24 ALA A CB  1 P31560 UNP 24 A 
+ATOM 170 O O   . ALA A 1 24 ? 6.891   3.103  -14.436 1.00 94.12 ? 24 ALA A O   1 P31560 UNP 24 A 
+ATOM 171 N N   . LEU A 1 25 ? 6.875   3.224  -12.196 1.00 93.12 ? 25 LEU A N   1 P31560 UNP 25 L 
+ATOM 172 C CA  . LEU A 1 25 ? 7.332   4.611  -12.130 1.00 93.12 ? 25 LEU A CA  1 P31560 UNP 25 L 
+ATOM 173 C C   . LEU A 1 25 ? 8.772   4.779  -12.629 1.00 93.12 ? 25 LEU A C   1 P31560 UNP 25 L 
+ATOM 174 C CB  . LEU A 1 25 ? 7.200   5.123  -10.685 1.00 93.12 ? 25 LEU A CB  1 P31560 UNP 25 L 
+ATOM 175 O O   . LEU A 1 25 ? 9.058   5.743  -13.340 1.00 93.12 ? 25 LEU A O   1 P31560 UNP 25 L 
+ATOM 176 C CG  . LEU A 1 25 ? 5.752   5.357  -10.215 1.00 93.12 ? 25 LEU A CG  1 P31560 UNP 25 L 
+ATOM 177 C CD1 . LEU A 1 25 ? 5.765   5.701  -8.724  1.00 93.12 ? 25 LEU A CD1 1 P31560 UNP 25 L 
+ATOM 178 C CD2 . LEU A 1 25 ? 5.075   6.502  -10.969 1.00 93.12 ? 25 LEU A CD2 1 P31560 UNP 25 L 
+ATOM 179 N N   . LEU A 1 26 ? 9.677   3.863  -12.281 1.00 91.94 ? 26 LEU A N   1 P31560 UNP 26 L 
+ATOM 180 C CA  . LEU A 1 26 ? 11.062  3.906  -12.755 1.00 91.94 ? 26 LEU A CA  1 P31560 UNP 26 L 
+ATOM 181 C C   . LEU A 1 26 ? 11.147  3.616  -14.263 1.00 91.94 ? 26 LEU A C   1 P31560 UNP 26 L 
+ATOM 182 C CB  . LEU A 1 26 ? 11.906  2.931  -11.924 1.00 91.94 ? 26 LEU A CB  1 P31560 UNP 26 L 
+ATOM 183 O O   . LEU A 1 26 ? 11.805  4.361  -14.994 1.00 91.94 ? 26 LEU A O   1 P31560 UNP 26 L 
+ATOM 184 C CG  . LEU A 1 26 ? 12.140  3.331  -10.460 1.00 91.94 ? 26 LEU A CG  1 P31560 UNP 26 L 
+ATOM 185 C CD1 . LEU A 1 26 ? 12.790  2.186  -9.686  1.00 91.94 ? 26 LEU A CD1 1 P31560 UNP 26 L 
+ATOM 186 C CD2 . LEU A 1 26 ? 13.062  4.547  -10.354 1.00 91.94 ? 26 LEU A CD2 1 P31560 UNP 26 L 
+ATOM 187 N N   . ALA A 1 27 ? 10.386  2.631  -14.750 1.00 91.44 ? 27 ALA A N   1 P31560 UNP 27 A 
+ATOM 188 C CA  . ALA A 1 27 ? 10.266  2.335  -16.177 1.00 91.44 ? 27 ALA A CA  1 P31560 UNP 27 A 
+ATOM 189 C C   . ALA A 1 27 ? 9.698   3.529  -16.968 1.00 91.44 ? 27 ALA A C   1 P31560 UNP 27 A 
+ATOM 190 C CB  . ALA A 1 27 ? 9.393   1.084  -16.346 1.00 91.44 ? 27 ALA A CB  1 P31560 UNP 27 A 
+ATOM 191 O O   . ALA A 1 27 ? 10.237  3.901  -18.012 1.00 91.44 ? 27 ALA A O   1 P31560 UNP 27 A 
+ATOM 192 N N   . ALA A 1 28 ? 8.657   4.195  -16.449 1.00 91.81 ? 28 ALA A N   1 P31560 UNP 28 A 
+ATOM 193 C CA  . ALA A 1 28 ? 8.042   5.363  -17.085 1.00 91.81 ? 28 ALA A CA  1 P31560 UNP 28 A 
+ATOM 194 C C   . ALA A 1 28 ? 9.001   6.558  -17.198 1.00 91.81 ? 28 ALA A C   1 P31560 UNP 28 A 
+ATOM 195 C CB  . ALA A 1 28 ? 6.791   5.752  -16.291 1.00 91.81 ? 28 ALA A CB  1 P31560 UNP 28 A 
+ATOM 196 O O   . ALA A 1 28 ? 8.925   7.336  -18.149 1.00 91.81 ? 28 ALA A O   1 P31560 UNP 28 A 
+ATOM 197 N N   . ARG A 1 29 ? 9.941   6.695  -16.256 1.00 87.50 ? 29 ARG A N   1 P31560 UNP 29 R 
+ATOM 198 C CA  . ARG A 1 29 ? 10.968  7.747  -16.279 1.00 87.50 ? 29 ARG A CA  1 P31560 UNP 29 R 
+ATOM 199 C C   . ARG A 1 29 ? 12.123  7.454  -17.248 1.00 87.50 ? 29 ARG A C   1 P31560 UNP 29 R 
+ATOM 200 C CB  . ARG A 1 29 ? 11.446  8.023  -14.841 1.00 87.50 ? 29 ARG A CB  1 P31560 UNP 29 R 
+ATOM 201 O O   . ARG A 1 29 ? 13.082  8.219  -17.256 1.00 87.50 ? 29 ARG A O   1 P31560 UNP 29 R 
+ATOM 202 C CG  . ARG A 1 29 ? 10.358  8.729  -14.016 1.00 87.50 ? 29 ARG A CG  1 P31560 UNP 29 R 
+ATOM 203 C CD  . ARG A 1 29 ? 10.820  8.929  -12.571 1.00 87.50 ? 29 ARG A CD  1 P31560 UNP 29 R 
+ATOM 204 N NE  . ARG A 1 29 ? 9.757   9.537  -11.748 1.00 87.50 ? 29 ARG A NE  1 P31560 UNP 29 R 
+ATOM 205 N NH1 . ARG A 1 29 ? 11.062  10.133 -9.955  1.00 87.50 ? 29 ARG A NH1 1 P31560 UNP 29 R 
+ATOM 206 N NH2 . ARG A 1 29 ? 8.868   10.539 -9.904  1.00 87.50 ? 29 ARG A NH2 1 P31560 UNP 29 R 
+ATOM 207 C CZ  . ARG A 1 29 ? 9.901   10.066 -10.545 1.00 87.50 ? 29 ARG A CZ  1 P31560 UNP 29 R 
+ATOM 208 N N   . LYS A 1 30 ? 12.063  6.369  -18.042 1.00 73.81 ? 30 LYS A N   1 P31560 UNP 30 K 
+ATOM 209 C CA  . LYS A 1 30 ? 13.206  5.812  -18.805 1.00 73.81 ? 30 LYS A CA  1 P31560 UNP 30 K 
+ATOM 210 C C   . LYS A 1 30 ? 14.440  5.584  -17.917 1.00 73.81 ? 30 LYS A C   1 P31560 UNP 30 K 
+ATOM 211 C CB  . LYS A 1 30 ? 13.551  6.675  -20.036 1.00 73.81 ? 30 LYS A CB  1 P31560 UNP 30 K 
+ATOM 212 O O   . LYS A 1 30 ? 15.573  5.579  -18.395 1.00 73.81 ? 30 LYS A O   1 P31560 UNP 30 K 
+ATOM 213 C CG  . LYS A 1 30 ? 12.398  6.855  -21.028 1.00 73.81 ? 30 LYS A CG  1 P31560 UNP 30 K 
+ATOM 214 C CD  . LYS A 1 30 ? 12.921  7.556  -22.289 1.00 73.81 ? 30 LYS A CD  1 P31560 UNP 30 K 
+ATOM 215 C CE  . LYS A 1 30 ? 11.803  7.714  -23.323 1.00 73.81 ? 30 LYS A CE  1 P31560 UNP 30 K 
+ATOM 216 N NZ  . LYS A 1 30 ? 12.340  8.172  -24.628 1.00 73.81 ? 30 LYS A NZ  1 P31560 UNP 30 K 
+ATOM 217 N N   . GLY A 1 31 ? 14.219  5.461  -16.609 1.00 64.06 ? 31 GLY A N   1 P31560 UNP 31 G 
+ATOM 218 C CA  . GLY A 1 31 ? 15.250  5.509  -15.590 1.00 64.06 ? 31 GLY A CA  1 P31560 UNP 31 G 
+ATOM 219 C C   . GLY A 1 31 ? 15.805  4.125  -15.340 1.00 64.06 ? 31 GLY A C   1 P31560 UNP 31 G 
+ATOM 220 O O   . GLY A 1 31 ? 15.529  3.571  -14.290 1.00 64.06 ? 31 GLY A O   1 P31560 UNP 31 G 
+ATOM 221 N N   . ASN A 1 32 ? 16.544  3.593  -16.312 1.00 66.44 ? 32 ASN A N   1 P31560 UNP 32 N 
+ATOM 222 C CA  . ASN A 1 32 ? 17.568  2.564  -16.116 1.00 66.44 ? 32 ASN A CA  1 P31560 UNP 32 N 
+ATOM 223 C C   . ASN A 1 32 ? 17.206  1.422  -15.137 1.00 66.44 ? 32 ASN A C   1 P31560 UNP 32 N 
+ATOM 224 C CB  . ASN A 1 32 ? 18.881  3.296  -15.770 1.00 66.44 ? 32 ASN A CB  1 P31560 UNP 32 N 
+ATOM 225 O O   . ASN A 1 32 ? 18.022  1.068  -14.282 1.00 66.44 ? 32 ASN A O   1 P31560 UNP 32 N 
+ATOM 226 C CG  . ASN A 1 32 ? 20.097  2.601  -16.344 1.00 66.44 ? 32 ASN A CG  1 P31560 UNP 32 N 
+ATOM 227 N ND2 . ASN A 1 32 ? 21.155  2.470  -15.583 1.00 66.44 ? 32 ASN A ND2 1 P31560 UNP 32 N 
+ATOM 228 O OD1 . ASN A 1 32 ? 20.143  2.246  -17.507 1.00 66.44 ? 32 ASN A OD1 1 P31560 UNP 32 N 
+ATOM 229 N N   . LEU A 1 33 ? 15.982  0.893  -15.250 1.00 60.84 ? 33 LEU A N   1 P31560 UNP 33 L 
+ATOM 230 C CA  . LEU A 1 33 ? 15.652  -0.428 -14.720 1.00 60.84 ? 33 LEU A CA  1 P31560 UNP 33 L 
+ATOM 231 C C   . LEU A 1 33 ? 16.220  -1.514 -15.626 1.00 60.84 ? 33 LEU A C   1 P31560 UNP 33 L 
+ATOM 232 C CB  . LEU A 1 33 ? 14.133  -0.611 -14.576 1.00 60.84 ? 33 LEU A CB  1 P31560 UNP 33 L 
+ATOM 233 O O   . LEU A 1 33 ? 16.171  -1.310 -16.861 1.00 60.84 ? 33 LEU A O   1 P31560 UNP 33 L 
+ATOM 234 C CG  . LEU A 1 33 ? 13.474  0.109  -13.402 1.00 60.84 ? 33 LEU A CG  1 P31560 UNP 33 L 
+ATOM 235 C CD1 . LEU A 1 33 ? 12.031  -0.379 -13.350 1.00 60.84 ? 33 LEU A CD1 1 P31560 UNP 33 L 
+ATOM 236 C CD2 . LEU A 1 33 ? 14.144  -0.215 -12.067 1.00 60.84 ? 33 LEU A CD2 1 P31560 UNP 33 L 
+ATOM 237 O OXT . LEU A 1 33 ? 16.624  -2.535 -15.038 1.00 60.84 ? 33 LEU A OXT 1 P31560 UNP 33 L 
+#
