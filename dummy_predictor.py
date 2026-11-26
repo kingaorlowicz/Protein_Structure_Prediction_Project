@@ -52,9 +52,9 @@ def read_fasta(path):
 
 
 def encode_batch(sequences):
-    """Tworzy wejście (B, D, 22) oraz maskę (B, D)."""
+    """Zamiana sekwencji na wejście modelu: Tworzy wejście (B, D, 22) oraz maskę (B, D)."""
     # Początkowo wszystkie pozycje to PAD.
-    tokens = torch.full(
+    tokens = torch.full(            #tablcia do wypełnienia o wymairach liczba białek x MAX_LENGTH
         (len(sequences), MAX_LENGTH),
         AA_TO_INDEX["PAD"],
         dtype=torch.long
@@ -102,12 +102,12 @@ def write_pdb(path, sequence, coordinates):
         raise ValueError("Liczba aminokwasów i współrzędnych jest różna.")
 
     with path.open("w", encoding="ascii") as output:
-        output.write("REMARK 900 DUMMY RANDOM COORDINATES\n")
+        #output.write("REMARK 900 DUMMY RANDOM COORDINATES\n")
 
         for i, (aa, xyz) in enumerate(zip(sequence, coordinates), start=1):
             x, y, z = xyz
 
-            # Odstępy są istotne: PDB ma ustalone kolumny.
+            #odstępy bo PDB ma ustalone kolumny
             line = (
                 f"ATOM  {i:5d}  CA  {AA3[aa]:3s} A{i:4d}    "
                 f"{x:8.3f}{y:8.3f}{z:8.3f}"
@@ -137,7 +137,7 @@ def main():
     if LIMIT is not None:
         records = records[:LIMIT]
 
-    # Używamy nowego folderu dla każdego uruchomienia.
+    #nowy folder dla każdego uruchomienia
     OUTPUT_DIR.mkdir(parents=True, exist_ok=False)
 
     model = DummyPredictor().eval()
@@ -145,7 +145,7 @@ def main():
     truncated = sum(len(sequence) > MAX_LENGTH for _, sequence in records)
     print(f"Białka: {len(records)}, do obcięcia: {truncated}")
 
-    with torch.inference_mode():
+    with torch.inference_mode():        #wyłączamy obliczanie gradientów, bo nie potrzebujemy ich do predykcji
         for start in range(0, len(records), BATCH_SIZE):
             batch = records[start:start + BATCH_SIZE]
             sequences = [sequence for _, sequence in batch]
@@ -156,9 +156,9 @@ def main():
             for number, ((protein_id, sequence), coordinates) in enumerate(
                 zip(batch, predictions), start=start + 1
             ):
-                sequence = sequence[:MAX_LENGTH]
+                sequence = sequence[:MAX_LENGTH]        #obcięcie do zapisu
 
-                # Bezpieczna nazwa pliku, także dla ID ze znakami specjalnymi.
+                #nazwa pliku
                 safe_id = "".join(
                     character if character.isalnum() else "_"
                     for character in protein_id
